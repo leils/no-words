@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.Bank {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  column-gap: 10px;
+  row-gap: 15px;
+}

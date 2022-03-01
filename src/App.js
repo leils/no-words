@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useSpeechSynthesis } from 'react-speech-kit';
 import Words from './words';
@@ -13,14 +12,19 @@ function TalkButton(props) {
     </button>)
 }
 
+function WordBank(props) {
+  return(
+    <div className="Bank">
+      { Words.map((word, index) => <TalkButton key={index} word={word}/>) }
+    </div>
+  )
+}
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        { Words.map((word) => <TalkButton word={word}/>)}
-        
-        <TalkButton word="Talking"/>
+        <WordBank/>
       </header>
     </div>
   );
