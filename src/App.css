@@ -39,7 +39,10 @@
 
 .talkButton {
   min-height: 60px;
-  color: black;
-  background-color: whitesmoke;
+  color: darkslategray;
+  background-color: seashell;
   border-radius: 8px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
 }

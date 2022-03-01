@@ -11,7 +11,7 @@ function TalkButton(props) {
         if (props.isSpeaking) {
           props.cancelSpeech();
         }
-        props.speakFunct({ text: props.word, pitch: 1.4 });
+        props.speakFunct({ text: props.word, pitch: 1.2 });
       }}>
       {props.word}
     </button>)
