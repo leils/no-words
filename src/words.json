@@ -1,8 +1,5 @@
 [
   "?",
-  "yes",
-  "no",
-  "not",
   "small",
   "big",
   "many",
@@ -15,18 +12,24 @@
   "them",
   "good",
   "bad",
+  "yes",
+  "no",
+  "not",
 
   "family",
   "friend",
   "day",
   "person",
 
-  "space",
-  "mind",
+  "place",
+  "brain",
   "think",
   "school",
   "home",
   "city",
+  "food",
+  "money",
+  "thing",
 
   "art",
   "computer"
