@@ -30,7 +30,7 @@
 
 .Bank {
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 10px;
   row-gap: 15px;
   width: 85%;
@@ -38,6 +38,7 @@
 }
 
 .talkButton {
+  font-size: x-large;
   min-height: 60px;
   color: darkslategray;
   background-color: seashell;
@@ -45,4 +46,5 @@
   font-family: 'Outfit', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
+  padding: 24px 8px;
 }

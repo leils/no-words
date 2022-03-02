@@ -1,5 +1,8 @@
 [
   "?",
+  "yes",
+  "no",
+  "not",
   "small",
   "big",
   "many",
@@ -12,9 +15,6 @@
   "them",
   "good",
   "bad",
-  "yes",
-  "no",
-  "not",
 
   "family",
   "friend",
