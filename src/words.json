@@ -1,10 +1,11 @@
 [
-  "?",
+  "hello",
   "small",
   "big",
   "many",
   "few",
 
+  "love",
   "happy",
   "sad",
   "me",
@@ -18,7 +19,6 @@
 
   "family",
   "friend",
-  "day",
   "person",
 
   "place",
@@ -32,5 +32,8 @@
   "thing",
 
   "art",
-  "computer"
+  "computer",
+  "day",
+  "night",
+  "?"
 ]
